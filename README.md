@@ -11,18 +11,6 @@
   <img src="https://img.shields.io/badge/Deployment-Ready-critical?style=for-the-badge">
 </p>
 
-## 🧩 Project Architecture
-
-```mermaid
-flowchart LR
-
-A[📂 Raw HR Data] --> B[🧹 Data Cleaning]
-B --> C[📊 EDA & Visualization]
-C --> D[⚙️ Preprocessing Pipeline<br/>Encoding • Scaling • Transformation]
-D --> E[🤖 Model Training<br/>DT / RF / GB / XGBoost]
-E --> F[🏆 Model Selection & Evaluation]
-F --> G[💾 Save Model & Preprocessing<br/>model.pkl • preprocessing.pkl]
-G --> H[🚀 Deployment Ready]
 
 
 
@@ -43,4 +31,14 @@ The workflow includes:
 
 ---
 
-# 📁 Project Structure  
+```mermaid
+flowchart LR
+
+A[📂 Raw HR Data] --> B[🧹 Data Cleaning]
+B --> C[📊 EDA & Visualization]
+C --> D[⚙️ Preprocessing Pipeline<br/>Encoding • Scaling • Transformation]
+D --> E[🤖 Model Training<br/>DT / RF / GB / XGBoost]
+E --> F[🏆 Model Selection & Evaluation]
+F --> G[💾 Save Model & Preprocessing<br/>model.pkl • preprocessing.pkl]
+G --> H[🚀 Deployment Ready]
+ 
