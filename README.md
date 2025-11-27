@@ -12,9 +12,7 @@
 </p>
 
 
-
-
-# 🧠 Employee Attrition Prediction Using Machine Learning  
+ 
 End-to-End HR Analytics Project | Classification | EDA → Preprocessing → Modeling → Deployment
 
 ## 📌 Project Overview  
